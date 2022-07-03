@@ -2,7 +2,6 @@ services:
   - type: web
     name: gridsome
     region: singapore
-    env: static
     buildCommand: gridsome build
     staticPublishPath: dist
     repo: https://github.com/rajahafify/strapi-gridsome.git
